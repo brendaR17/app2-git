@@ -1,0 +1,383 @@
+﻿<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title> Segunda Aplicacion </title>
+
+  <!--grupo CSS-->
+   <link rel="stylesheet" href="css/tema-app1.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+   <!--grupo JavaScript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+ <script src="phonegap.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ 
+   <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}z
+}
+   </script>
+ </head>
+    
+   <body onLoad="MM_preloadImages('imagenes/huawei2.jpg','imagenes/celular2.png')">
+    
+    <div data-role="page" id="Principal" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1> Telefonia Celular </h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1> Huawei </h1>
+        <div>
+         <p> HUAWEI: </p>
+         <br>
+         </div>
+         <div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/huawei2.jpg',1)"><img src="imagenes/huawei.png" width="313" height="161" id="Image36"></a> </div>
+        </div>
+       </div>
+       
+       <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+     <h1> Samsung </h1>
+        <div>
+         <p> SAMSUNG: </p>
+         <br>
+         </div>
+         <div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/celular2.png',1)"><img src="imagenes/samsung2.jpg" width="341" height="148" id="Image"></a></div>
+        </div>
+       </div>
+       
+       
+       <div>
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Definicion del telefono celular </h2>
+           <p> Se muestra la definicion  </p> 
+         </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Historia de la telefonia celular </h2>
+           <p> Se muestra la historia </p>
+         </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Clasificacion de los telefonos celulares </h2>
+            <p> Muestra las gamas de los telefonos celulares </p>
+         </a>
+        </li>
+        
+           <li class="ui-first-child ui-last-child">
+          <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Compañias que ofrecen el servicio en Mexico </h2>
+            <p> Muestran las compañias  </p>
+          </a>
+        </li>
+        </ul>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/alcatel.png" alt="alcatel" title="alcatel" id="wows1_0"/></li>
+		<li><img src="data1/images/att.png" alt="at&t" title="at&t" id="wows1_1"/></li>
+		<li><img src="data1/images/celular1.png" alt="celular1" title="celular1" id="wows1_2"/></li>
+		<li><img src="data1/images/celular2.png" alt="celular2" title="celular2" id="wows1_3"/></li>
+		<li><img src="data1/images/celular3.png" alt="celular3" title="celular3" id="wows1_4"/></li>
+		<li><img src="data1/images/celular4.png" alt="celular4" title="celular4" id="wows1_5"/></li>
+		<li><img src="data1/images/gamaalta.jpg" alt="gamaalta" title="gamaalta" id="wows1_6"/></li>
+		<li><img src="data1/images/gamabaja.jpg" alt="gamabaja" title="gamabaja" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/gamamedia.jpg" alt="cssslider" title="gamamedia" id="wows1_8"/></a></li>
+		<li><img src="data1/images/huawei.png" alt="huawei" title="huawei" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="alcatel"><span><img src="data1/tooltips/alcatel.png" alt="alcatel"/>1</span></a>
+		<a href="#" title="at&t"><span><img src="data1/tooltips/att.png" alt="at&t"/>2</span></a>
+		<a href="#" title="celular1"><span><img src="data1/tooltips/celular1.png" alt="celular1"/>3</span></a>
+		<a href="#" title="celular2"><span><img src="data1/tooltips/celular2.png" alt="celular2"/>4</span></a>
+		<a href="#" title="celular3"><span><img src="data1/tooltips/celular3.png" alt="celular3"/>5</span></a>
+		<a href="#" title="celular4"><span><img src="data1/tooltips/celular4.png" alt="celular4"/>6</span></a>
+		<a href="#" title="gamaalta"><span><img src="data1/tooltips/gamaalta.jpg" alt="gamaalta"/>7</span></a>
+		<a href="#" title="gamabaja"><span><img src="data1/tooltips/gamabaja.jpg" alt="gamabaja"/>8</span></a>
+		<a href="#" title="gamamedia"><span><img src="data1/tooltips/gamamedia.jpg" alt="gamamedia"/>9</span></a>
+		<a href="#" title="huawei"><span><img src="data1/tooltips/huawei.png" alt="huawei"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+       </div>
+       
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <div>
+         <img src="imagenes/logo.png" width="46" height="46"> </div>
+         <div>
+           <h4> Aplicacion Dos </h4>
+           <h4> Brenda Ramirez Ramirez </h4>
+         </div>
+         </div>
+         </div>
+         
+   <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+           <h2> DEFINICION </h2>
+          </div>
+          <div data-role="content" align="center">
+           <div>
+             <h1> Se conoce como celular al dispositivo inalámbrico electrónico que está preparado para tener acceso a la telefonía celular, también conocida como móvil. </h1>
+           </div>
+           </div>
+           
+            <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1> Celular 1 </h1>
+        <div>
+         <p> ALCATEL: </p>
+         <br>
+         </div>
+         <div>
+         <img src="imagenes/alcatel.png" width="259" height="194"> 
+         </div>
+        </div>
+       </div>
+       
+        <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1> Celular 2 </h1>
+        <div>
+         <p> LG: </p>
+         <br>
+         </div>
+         <div>
+         <img src="imagenes/lg.png" width="275" height="183"> 
+         </div>
+        </div>
+       </div>
+       
+          <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> Celular 3 </h2>
+        <div>
+         <p> MOTOROLA: </p>
+         <br>
+         </div>
+         <div>
+         <img src="imagenes/motorola.png" width="265" height="190">
+          </div>
+        </div>
+       </div>
+       
+           <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion Dos, BRR </H4>     
+            </div>
+           </div>
+             
+             
+   <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+            <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h2> HISTORIA DE LA TELEFONIA CELULAR </h2>
+            </div>
+            <div data-role="content" align="center">
+              <div> 
+                <h1> Es indudable que la telefonía celular se ha convertido en los últimos años en una de las tecnologías más comúnmente utilizadas a diario por millones de personas alrededor de mundo. Casi treinta años de evolución constante en las comunicaciones personales móviles le han permitido a este dispositivo convertirse en una parte fundamental en el desarrollo cotidiano de cualquier actividad que emprenda el individuo. Los pioneros en el ámbito de la telefonía móvil para uso civil comenzaron a transitar su camino de desarrollo en la lejana década de los 40.  </h1>
+                </div>
+              </div>
+              
+               <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> Celular 1:  </h2>
+        <div>
+         <br>
+         </div>
+         <div>
+          <img src="imagenes/celular1.png" width="302" height="167"></div>
+        </div>
+       </div>
+              
+              
+              <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> Celular 2:  </h2>
+        <div>
+         <br>
+         </div>
+         <div>
+         <img src="imagenes/celular2.png" width="570" height="379"> </div>
+        </div>
+       </div>
+       
+        <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> Celular 3:  </h2>
+        <div>
+         <br>
+         </div>
+         <div>
+         <img src="imagenes/celular3.png" width="259" height="194"> </div>
+        </div>
+       </div>
+    
+             <div data-role="footer" data-theme="a" data-position="fixed">
+              <h4> Aplicacion Dos, BRR </h4>
+               </div>
+               </div>
+                
+                
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h2> CLASIFICACION  </h2>
+   </div>
+   <div data-role="content" align="center">
+     <div> 
+       <h1>  Gama Alta </h1>
+       <P> Celular inteligente con gran capacidad de procesamiento tanto de internet como en archivos practicamente sin las limitaciones de los de gama baja y media. </P>
+       </div>
+     </div>
+     
+      <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> Ejemplo </h2>
+        <div>
+         <p> Celular de Gama Alta: </p>
+         <br>
+         </div>
+         <div>
+          <img src="imagenes/gamaalta.jpg" width="400" height="467"> </div>
+        </div>
+        
+         <div data-role="content" align="center">
+     <div> 
+       <h1>  Gama Media </h1>
+       <P> Es un celular para llamar, sms, internet pero con poca memoria de procesamiento, lento en conexion a internet y con soporte para apps java. </P>
+       </div>
+     </div>
+     
+      <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> Ejemplo </h2>
+        <div>
+         <p> Celular de Gama Media: </p>
+         <br>
+         </div>
+         <div>
+          <img src="imagenes/gamamedia.jpg" width="400" height="430"></div>
+        </div>
+        
+         <div data-role="content" align="center">
+     <div> 
+       <h1> Gama Baja </h1>
+       <P> Es un celular que solo sirve para llamar y recibir llamada, enviar y recibir sms, pues no tienen internet ni soporte para aplicaciones. </P>
+       </div>
+     </div>
+     
+      <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> Ejemplo </h2>
+        <div>
+         <p> Celular de Gama Baja: </p>
+         <br>
+         </div>
+         <div>
+          <img src="imagenes/gamabaja.jpg" width="400" height="430"> </div>
+        </div>
+   
+      <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4> Aplicacion Dos, BRR </h4>
+    </div>
+    </div></div></div></div>
+    
+
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+           <h2> COMPAÑIAS DE MEXICO</h2>
+          </div>
+          <div data-role="content" align="center">
+           <div>
+             <h1> </h1>
+           </div>
+           </div>
+           
+            <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1> AT&T </h1>
+        <div>
+         <p> Logo de la compañia: </p>
+         <br>
+         </div>
+         <div>
+         <img src="imagenes/at&t.png" width="100" height="100"> 
+         </div>
+        </div>
+       </div>
+       
+        <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1> MOVISTAR </h1>
+        <div>
+         <p>  Logo de la compañia": </p>
+         <br>
+         </div>
+         <div>
+         <img src="imagenes/movistar.jpg" width="100" height="100"> 
+         </div>
+        </div>
+       </div>
+       
+          <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> UNEFON </h2>
+        <div>
+         <p> Logo de la compañia: </p>
+         <br>
+         </div>
+         <div>
+          <img src="imagenes/unefon.png" width="100" height="100"> 
+          </div>
+        </div>
+       </div>
+       
+          <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h2> TELCEL </h2>
+        <div>
+         <p> Logo de la compañia: </p>
+         <br>
+         </div>
+         <div>
+          <a href="http://www.telcel.com/"><img src="imagenes/telcel.jpg" width="100" height="100"> </div>
+        </div>
+       </div>
+       
+           <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion Dos, BRR </H4>     
+            </div>
+           </div>         
+</body>
+</html>
